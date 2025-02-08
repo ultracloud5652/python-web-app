@@ -139,24 +139,24 @@ docker run -p 80:80 python-web-app
 ### **Pipeline Steps:**
 
 
-#### - Checkout Code: Fetches the latest code from the GitHub repository.
-#### - Docker Login: Logs in to Docker Hub using stored secrets.
-#### - Build and Push Image: Builds the Docker image from the `Dockerfile` and pushes it to Docker Hub.
+- Checkout Code: Fetches the latest code from the GitHub repository.
+- Docker Login: Logs in to Docker Hub using stored secrets.
+- Build and Push Image: Builds the Docker image from the `Dockerfile` and pushes it to Docker Hub.
 
 ## **Technologies Used**
 
-#### - **Terraform**: Infrastructure as Code for provisioning AWS resources.
-#### - **AWS**: Cloud provider for hosting the EC2 instance and S3 storage.
-#### - **Docker**: Containerization of the Python Flask application.
-#### - **Python Flask**: Web framework for creating the web application.
-#### - **GitHub Actions**: CI/CD pipeline to automate Docker image building and deployment.
+- **Terraform**: Infrastructure as Code for provisioning AWS resources.
+- **AWS**: Cloud provider for hosting the EC2 instance and S3 storage.
+- **Docker**: Containerization of the Python Flask application.
+- **Python Flask**: Web framework for creating the web application.
+- **GitHub Actions**: CI/CD pipeline to automate Docker image building and deployment.
 
 ## **Future Enhancements**
 
-#### - **Multi-tier Architecture**: Split the application into multiple layers (e.g., frontend, backend) with separate services like RDS for the database.
-#### - **Auto Scaling**: Implement auto-scaling for EC2 instances based on traffic.
-#### - **Monitoring & Logging**: Integrate AWS CloudWatch for application logging and monitoring.
-#### - **Security Enhancements**: Implement better security practices such as using IAM roles and security groups with tighter restrictions.
+- **Multi-tier Architecture**: Split the application into multiple layers (e.g., frontend, backend) with separate services like RDS for the database.
+- **Auto Scaling**: Implement auto-scaling for EC2 instances based on traffic.
+- **Monitoring & Logging**: Integrate AWS CloudWatch for application logging and monitoring.
+- **Security Enhancements**: Implement better security practices such as using IAM roles and security groups with tighter restrictions.
 
 ## **Contributing**
 
