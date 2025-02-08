@@ -139,9 +139,9 @@ docker run -p 80:80 python-web-app
 ### **Pipeline Steps:**
 
 
-- Checkout Code: Fetches the latest code from the GitHub repository.
-- Docker Login: Logs in to Docker Hub using stored secrets.
-- Build and Push Image: Builds the Docker image from the `Dockerfile` and pushes it to Docker Hub.
+- **Checkout Code**: Fetches the latest code from the GitHub repository.
+- **Docker Login**: Logs in to Docker Hub using stored secrets.
+- **Build and Push Image**: Builds the Docker image from the `Dockerfile` and pushes it to Docker Hub.
 
 ## **Technologies Used**
 
